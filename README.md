@@ -52,13 +52,6 @@ The application is organized into a frontend, backend API, and separate ingestio
 
 Document registration and successful indexing are separate stages. A successful upload response alone does not confirm that a document has completed ingestion.
 
-## Live Demo
-
-- **Frontend:** https://research-intelligence-rag.netlify.app/
-- **Backend health check:** https://research-intelligence-rag-production.up.railway.app/health
-
-The backend health endpoint verifies API availability; it does not guarantee that every ingestion or retrieval operation is working correctly.
-
 ## Local Development
 
 ### Prerequisites
